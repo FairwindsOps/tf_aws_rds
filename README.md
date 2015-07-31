@@ -34,8 +34,9 @@ Input Variables
 Outputs
 -------
 
-- `launch_config_id`
-- `asg_id`
+- `rds_instance_id` - The ID of the RDS instance
+- `rds_instance_address` - The address of the RDS instance
+- `subnet_group_id` - The ID of the Subnet Group
 
 Usage
 -----
