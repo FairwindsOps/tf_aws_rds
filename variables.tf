@@ -53,6 +53,10 @@ variable "db_parameter_group" {
 variable "subnet_az1" {}
 variable "subnet_az2" {}
 
+variable "backup_retention_period" {
+    default = 0
+}
+
 // Variables for providers used in this module
 variable "aws_access_key" {}
 variable "aws_secret_key" {}
